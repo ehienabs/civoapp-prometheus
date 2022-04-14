@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: civoapp-deployment
+  labels:
+    app: civoapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: civoapp
+  template:
+    metadata:
+      labels:
+        app: civoapp
+    spec:
+      containers:
+      - name: civoapp
+        image: ehienabs/civoapp:v1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: civoapp-service
+  labels:
+    app: civoappsvc
+spec:
+  selector:
+    app: civoapp
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer
