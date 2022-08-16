@@ -2,7 +2,7 @@
 
 This repo contains the code for the blog post  **Application Performance Monitoring With Prometheus and Grafana on Kubernetes.**
 
-Application Performance Monitoring With Prometheus and Grafana on Kubernetes describes the process of implementing Prometheus metrics in a simple Go application. The application is containerised using Docker and deployed to Kubernetes. Metrics from the application are the. fed into Grafana and used to create dashboards. 
+Application Performance Monitoring With Prometheus and Grafana on Kubernetes describes the process of implementing Prometheus metrics in a simple Go application. The application is containerised using Docker and deployed to Kubernetes. Metrics from the application are then fed into Grafana and used to create dashboards. 
 
 ## Blog
 
