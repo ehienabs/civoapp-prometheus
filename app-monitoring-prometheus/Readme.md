@@ -6,7 +6,7 @@ Application Performance Monitoring With Prometheus and Grafana on Kubernetes des
 
 ## Blog
 
-+ [application-performance-monitoring-with-prometheus-and-grafana-on-kubernetes](https://www.civo.com/learn/application-performance-monitoring-with-prometheus-and-grafana-on-kubernetes)
++ [Application Performance Monitoring With Prometheus and Grafana on Kubernetes](https://www.civo.com/learn/application-performance-monitoring-with-prometheus-and-grafana-on-kubernetes)
 
 ## Other Blogs
 + [Kubernetes Monitoring with Prometheus and Grafana](https://www.civo.com/learn/kubernetes-monitoring-with-prometheus-and-grafana)
